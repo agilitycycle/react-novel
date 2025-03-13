@@ -1,14 +1,23 @@
-import TailwindAdvancedEditor from "@/components/tailwind/advanced-editor";
-
 export default function Page() {
   return (
-    <div className="flex min-h-screen flex-row gap-4 py-4 sm:px-4">
-      <button type="button" className="text-white border font-medium rounded-lg text-sm h-8 px-1 ml-4 sm:ml-0 text-center">
-        <svg className="w-5 h-5 text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m15 19-7-7 7-7"/>
-        </svg>
-      </button>
-      <TailwindAdvancedEditor />
+    <div className="flex flex-col min-h-screen gap-4 p-10">
+      <div className="text-lg font-bold mb-20">
+        Diffrently.
+      </div>
+      <div className="text-7xl font-bold mb-20">
+        E-Paper
+      </div>
+      <div className="text-9xl font-extralight mb-20 break-all">
+        Commentary, Mini review, Letters
+      </div>
+      <div className="text-5xl font-extralight mb-20">
+        Sign in
+      </div>
+      {/*
+      <div>
+        + | Saved stories.
+      </div>
+      */}
     </div>
   );
 }
